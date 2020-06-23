@@ -23,7 +23,7 @@ def wordify(N):
 
 
 def generate_random():
-    return random.randrange(1, 100)
+    return random.randrange(1, 91)
 
 
 def print_opened_chart(numbers):
