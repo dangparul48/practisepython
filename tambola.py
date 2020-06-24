@@ -1,4 +1,4 @@
-# this program is to get a tambola number
+# this program is to get a practise number
 import random
 import inflect
 import pyttsx3
