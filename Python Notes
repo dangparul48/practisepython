@@ -1,0 +1,26 @@
+Regex module of python in nutshell
+
+Zero or more use asterick (*)
+
+One or more use plus (+)
+
+Zero or one use questionmark (?)
+
+Examples--
+
+Parul{\d}*  will search Parul, Parul1, Parul123
+
+Parul{\d}? will search Parul or Parul1 and NOT Parul12
+
+Parul{\d}+ will search Parul1 or Parul234 and NOT Parul
+
+Parantheses () are used to create groups, Pipe | is used for OR condition
+
+Character classes----
+
+\d	Numeric Digits
+\D	Not a numeric digit
+\w	Alphabets, numbers and underscore
+\W	Not an alphabet, number, and underscore
+\S	Space, newline and tabs
+\w	Not a space, newline, tab
